@@ -21,7 +21,8 @@ void encrypt(char *text, int shift)
     }
 }
 
-void decrypt(char *text, int shift) {
+void decrypt(char *text, int shift) 
+{
     for (int i = 0; text[i] != '\0'; i++) 
     {
         char c = text[i];

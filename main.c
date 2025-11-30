@@ -3,7 +3,8 @@
 #include <string.h>
 #include "crypto.h"
 
-int main() {
+int main() 
+{
     int menu, shift;
     char text[MAX_TEXT];
     char filename[100];
